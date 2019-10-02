@@ -1,4 +1,5 @@
 # BCI-Training-Unity
+
 Im nachfolgenden Projekt geht es darum, dass wie in den angefügten Screenshots zu sehen ist, der Quad in der Mitte flickern soll und die umliegenden Punkte als sogenannte Directionpunkte dienen sollen. 
 
 Dabei soll es folgender Maßen aufgebaut werden :
@@ -20,6 +21,11 @@ Wenn alle Punkte einmal erschienen sind, ist ein Durchlauf vollendet.
 Nun beginnt es wieder von vorne mit einer 10 Sek. Pause. Gut wäre hierbei, dass man manuell einstellen kann wie viele Durchläufe es geben soll.
 
 Das flickern des großen mittleren Punktes ist unter Plane im Script New Behaviour Script abgelegt.
+
+# HINWEIS 
+Das flickern des großen mittleren Punktes ist unter Plane im Script New Behaviour Script abgelegt.Das Script befindet sich im Asset ordner 
+
+Unter  Directionguide (ebenfalls unter Asset abgelegt) sind die ersten Schritte, die ich versucht habe mit Startcoroutine.
 
 ![](Bildschirmfoto%202019-10-02%20um%2002.15.52.png)
 ![](Bildschirmfoto%202019-10-02%20um%2002.16.23.png)
