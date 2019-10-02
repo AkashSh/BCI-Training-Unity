@@ -19,5 +19,3 @@ Wenn alle Punkte einmal erschienen sind, ist ein Durchlauf vollendet.
 
 Nun beginnt es wieder von vorne mit einer 10 Sek. Pause. Gut wäre hierbei, dass man manuell einstellen kann wie viele Durchläufe es geben soll.
 
-![Alt text](/Macintosh HD/Benutzer/AkashSH/Schreibtisch/Bildschirmfoto 2019-10-02 um 02.15.52.png?raw=true "Optional Title")
-⁩
