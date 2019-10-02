@@ -19,5 +19,7 @@ Wenn alle Punkte einmal erschienen sind, ist ein Durchlauf vollendet.
 
 Nun beginnt es wieder von vorne mit einer 10 Sek. Pause. Gut wäre hierbei, dass man manuell einstellen kann wie viele Durchläufe es geben soll.
 
+Das flickern des großen mittleren Punktes ist unter Plane im Script New Behaviour Script abgelegt.
+
 ![](Bildschirmfoto%202019-10-02%20um%2002.15.52.png)
 ![](Bildschirmfoto%202019-10-02%20um%2002.16.23.png)
