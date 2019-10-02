@@ -19,3 +19,4 @@ Wenn alle Punkte einmal erschienen sind, ist ein Durchlauf vollendet.
 
 Nun beginnt es wieder von vorne mit einer 10 Sek. Pause. Gut wäre hierbei, dass man manuell einstellen kann wie viele Durchläufe es geben soll.
 
+<img width="1269" alt="Bildschirmfoto 2019-10-02 um 02 15 52" src="https://user-images.githubusercontent.com/13587854/66009580-5b1aa180-e4bb-11e9-93be-9b4111652b79.png">
