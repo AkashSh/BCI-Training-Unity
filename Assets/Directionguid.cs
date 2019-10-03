@@ -9,26 +9,12 @@ public class Directionguid : MonoBehaviour
     public GameObject go3;
     public GameObject go4;
     [SerializeField]
-    int a;
+
 
     // Start is called before the first frame update
     private void Start()
     {
-        InvokeRepeating("Invoke", 1, 1 / 2f);
-
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            StartCoroutine(CoroutineTest());
-
-        }
-
-
+        StartCoroutine(CoroutineTest());
         IEnumerator CoroutineTest()
         {
             go1.SetActive(false);
@@ -36,61 +22,87 @@ public class Directionguid : MonoBehaviour
             go3.SetActive(false);
             go4.SetActive(false);
 
-    
+
+            int a = Random.Range(1, 5);
+            Debug.Log(a);
+
+            NewBehaviourScript _NewBehaviourScript = FindObjectOfType<NewBehaviourScript>();
+            _NewBehaviourScript.b = a;
+
+           
 
 
             yield return new WaitForSeconds(3);
-            /*int[] array;
-            array = new int[4];
+            go1.SetActive(true);
+            go2.SetActive(false);
+            go3.SetActive(false);
+            go4.SetActive(false);
+            a = 0;
+            _NewBehaviourScript.b = a;
+            Debug.Log(_NewBehaviourScript.b);
 
-            array[0] = 1;
-            array[1] = 2;
-            array[2] = 3;
-            array[3] = 4;*/
+            yield return new WaitForSeconds(3);
 
-
-
-            //if (a == 1)
-            //{
-                go1.SetActive(true);
-                go2.SetActive(false);
-                go3.SetActive(false);
-                go4.SetActive(false);
-
-                yield return new WaitForSeconds(3);
-
-                go1.SetActive(false);
-                go2.SetActive(false);
-                go3.SetActive(false);
-                go4.SetActive(false);
-
-           // }
-
-           /* if (a == 2)
-            {
-                go1.SetActive(false);
-                go2.SetActive(true);
-                go3.SetActive(false);
-                go4.SetActive(false);
-            }
-
-
-            if (a == 3)
-            {
-                go1.SetActive(false);
-                go2.SetActive(false);
-                go3.SetActive(true);
-                go4.SetActive(false);
-            }
-
-            if (a == 4)
-            {
-                go1.SetActive(false);
-                go2.SetActive(false);
-                go3.SetActive(false);
-                go4.SetActive(true);
-            }*/
+            go1.SetActive(false);
+            go2.SetActive(false);
+            go3.SetActive(false);
+            go4.SetActive(false);
         }
+
+    // Update is called once per frame
+    void Update()
+    {}
+
+
+        //if (Input.GetKeyDown(KeyCode.F))
+        //{
+
+
+        //}
+
+
+
+        /*int[] array;
+        array = new int[4];
+
+        array[0] = 1;
+        array[1] = 2;
+        array[2] = 3;
+        array[3] = 4;*/
+
+
+
+        //if (a == 1)
+        //{
+
+
+        // }
+
+        /* if (a == 2)
+         {
+             go1.SetActive(false);
+             go2.SetActive(true);
+             go3.SetActive(false);
+             go4.SetActive(false);
+         }
+
+
+         if (a == 3)
+         {
+             go1.SetActive(false);
+             go2.SetActive(false);
+             go3.SetActive(true);
+             go4.SetActive(false);
+         }
+
+         if (a == 4)
+         {
+             go1.SetActive(false);
+             go2.SetActive(false);
+             go3.SetActive(false);
+             go4.SetActive(true);
+         }*/
+
 
     }
     /*void Invoke()
