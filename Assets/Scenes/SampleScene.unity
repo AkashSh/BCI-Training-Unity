@@ -145,7 +145,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stimulater: {fileID: 760468662}
-  frequency: 30
+  frequency: 60
+  b: 0
 --- !u!64 &42845275
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -480,7 +481,6 @@ MonoBehaviour:
   go2: {fileID: 1571710039}
   go3: {fileID: 1881031810}
   go4: {fileID: 1285671572}
-  a: 0
 --- !u!4 &831091786
 Transform:
   m_ObjectHideFlags: 0

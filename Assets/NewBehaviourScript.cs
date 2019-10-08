@@ -10,20 +10,19 @@ public class NewBehaviourScript : MonoBehaviour {
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (b<1)
         {
-            InvokeRepeating("invoke", 1, 1 / frequency);
+            InvokeRepeating("invoke", 0 , 1 / frequency);
            
+        }
+        else {
+            CancelInvoke("invoke"); 
         }
     }
     void invoke ()
-    {
-        if ( b == 0 )
-        { stimulater.SetActive(!stimulater.activeSelf);
-        }
-        Debug.Log(b);
-       
-
+    {   
+        stimulater.SetActive(!stimulater.activeSelf);
+        // Debug.Log(b);
         
     }
 }
